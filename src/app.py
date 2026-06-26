@@ -11,6 +11,7 @@ from fastapi.responses import RedirectResponse
 import os
 from pathlib import Path
 
+# Trigger Step 2 workflow by updating src/app.py
 app = FastAPI(title="Mergington High School API",
               description="API for viewing and signing up for extracurricular activities")
 
@@ -74,7 +75,7 @@ activities = {
         "schedule": "Wednesdays, 4:00 PM - 5:30 PM",
         "max_participants": 12,
         "participants": ["mia@mergington.edu", "alex@mergington.edu"]
-    }
+    } 
 }
 
 
